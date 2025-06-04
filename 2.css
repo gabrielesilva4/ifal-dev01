@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo com cursor padrão */
+body {
+    cursor: url('https://cdn-icons-png.flaticon.com/32/590/590685.png'), auto;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #fff0f5, #ffe4ec);
+    color: #4d2c2c;
+}
+
+/* Cursor morango nas imagens, links e botões */
+.cursor-morango {
+    cursor: url('https://cdn-icons-png.flaticon.com/32/590/590685.png'), auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    background-image: url('https://i.imgur.com/ZhWxUMZ.png');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px dotted #ffb6c1;
+}
+
+header h1 {
+    font-size: 2.8em;
+    text-shadow: 1px 1px 2px #c2185b;
+}
+
+/* Navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #ff69b4;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.noticia {
+    background-color: #fff0f5;
+    border: 2px dashed #ffa5bd;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 12px rgba(255, 182, 193, 0.5);
+}
+
+.noticia img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.noticia h2 {
+    color: #d63384;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Música de fundo */
+.musica {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.musica button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.musica button:hover {
+    background-color: #ff3b7f;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    border-top: 5px dotted #ffb6c1;
+}
